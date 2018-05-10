@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+    @page {
+      size: A4;
+      margin: 5mm;
+      size: auto;
+    }
+    @media print {
+      html, body {
+      width: 210mm;
+      height: 297mm;
+      }
+    }
+    body {
+        /* A4 Size */
+        height:297mm; 
+        width:210mm;
+        /* to centre page on screen
+        margin-left: auto;
+        margin-right: auto;*/
+        background-image: url("BG.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .tableWithBackground { position: relative; }
+    .tableBackground {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    h4 {
+     margin-bottom: 0px;
+     margin-top: 15px;
+    }
+
+   </style>
+  </head>
+
+  <body>
+      <div style="width:500px; margin :0 auto;">
+      <p>&nbsp</p>
+      <p>&nbsp</p>
+      <p>&nbsp</p>
+      <p>&nbsp</p>
+      <div align=center>
+      <h1>Blockchain Caffe Paper Wallet</h1>
+      </div>
+      <h4>Di cosa si tratta:</h4><font style="font-size:12px">
+      Quello che avete tra le mani è un paper wallet, uno dei modi più sicuri per accumulare Bitcoin per periodi medio-lunghi. E' un wallet per bitcoin a tutti gli effetti che ha valore al portatore, può essere usato per fare regali o come strumento didattico. Successivamente all'evento, <strong>uno dei paper wallet distribuiti riceverà in regalo un versamento simbolico</strong> per incentivare l'interesse e l'utilizzo di questa tecnologia. </font> <br>
+      <h4>Come si usa:</h4><font style="font-size:12px">
+      A fondo pagina trovate i dati di questo paper wallet: le chiavi pubblica e privata, la stringa di importazione, l'indirizzo a cui inviare Bitcoin. Si possono inviare bitcoin al suo indirizzo (QRCode di sinistra), mentre per spenderli bisogna importare la chiave privata in un wallet digitale (QRCode di destra). Usatelo per fare piccoli esperimenti e acquisire familiarità con Bitcoin mantenendo sempre le sue informazioni riservate.</font><br>
+      <h4>Blockchain Caffe:</h4><font style="font-size:12px">
+      Questo è un omaggio di Blockchain Caffe. Vi aspettiamo sui social network, e sul canale YouTube dove sono già presenti decine di video divulgativi su Bitcoin e la Blockchain. Potete usare l'indirizzo info@blockchaincaffe.it per chiarimenti, dubbi, domande, corsi, analisi di progetti, valutazioni di ICO, servizi di consulenza, supporto ed ogni altra necessità legata al mondo Blockchain e criptovalute.
+      </font><br>
+
+      <h4>Wallet Data:</h4>      
+      <font style="font-size:10px">
+        <table border=0>
+        <tr>
+          <td rowspan="4" width=20>&nbsp;</td>
+          <td>Public key:</td>
+          <td>027B99233369ED51843B39C64E5C81D7118EEB8868D7049F35A5E7E9A9B59A67CA</td>
+        </tr>
+        <tr>
+          <td>WIF:</td>
+          <td>L1j6njjS3EfwQT51uubvRhbLnuLJDg6h3ZMevEaaz482uEwkH3QS</td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td>1BMcdeFEkU2MNF8BqcZvUdosREhsjuEwAA</td>
+        </tr>
+      </table>
+      </font>
+      <br>
+      <table class="tableWithBackground" align=center frame="box" border="0">
+        <tr>
+          <td colspan="5">
+           <font style="font-size:12px">&nbsp;&nbsp;&nbsp;&nbsp;<strong>Address: 1BMcdeFEkU2MNF8BqcZvUdosREhsjuEwAA</strong></font>
+          </td>
+        </tr>
+        <tr>
+          <td width=65 align=center>
+            <img class="tableBackground" src="PWBG.jpg">
+            &nbsp;    
+           </td>
+           <td width=130 align=center>
+            Public Key
+            <img src="qr1.png" width=120>
+          </td> 
+          <td>
+            <div align="center">
+                      <img src="BCCLogo.png" width="150px">
+            </div>
+          </td> 
+          <td width=130 align=center>
+            Private Key
+            <img src="qr1.png" width=120>
+          </td> 
+          <td width=65 align=center>
+            &nbsp;
+          </td>
+        </tr>
+        <tr>
+          <td colspan="5" align=right>
+            <font style="font-size:12px">https://www.blockchaincaffe.it</font>&nbsp;&nbsp;&nbsp;&nbsp;
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
