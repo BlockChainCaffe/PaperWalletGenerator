@@ -34,4 +34,7 @@ while read line; do
 done < $1
 mv wallets.pdf wallets-$(date "+%H%M%S").pdf
 
-
+### FIX PDF for PRINT
+#
+# gs -o wallets-new.pdf -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress wallets-163031.pdf
+#
