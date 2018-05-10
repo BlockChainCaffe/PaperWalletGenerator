@@ -32,5 +32,6 @@ while read line; do
 	# Clean
 	rm wallet.html wallet.pdf wif.png add.png w2.pdf 
 done < $1
+mv wallets.pdf wallets-$(date "+%H%M%S").pdf
 
 
