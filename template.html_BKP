@@ -56,24 +56,35 @@
       <h1>Blockchain Caffe Paper Wallet</h1>
       </div>
       <h4>Di cosa si tratta:</h4><font style="font-size:12px">
-      Quello che hai tra le mani è un paper wallet, uno dei modi più sicuri per accumulare bitcoin per periodi medio-lunghi. E' il tuo primo wallet per bitcoin a tutti gli effetti ed è anche (molto probabilmente) la tua prima paghetta, il tuo primo investimento e, se va tutto come spera lo zio, anche <i>"i tuoi primi passi in un universo più vasto"</i> (ma questa a dire il vero è un'altra stroria, che dovremo vedere assieme quando sarai più grande) </font> <br>
-      <h4>Come si usa?</h4><font style="font-size:12px">
-      Qui è la fregatura: non usarlo. Aspetta, studia un sacco, viaggia, fai finta di dimenticartelo ma non perderlo. Un giorno, e te lo auguro, potrebbe diventare il mezzo con cui realizzare un bel desiderio o persino un sogno.<br>
-      Probabilmente un giorno ti racconteremo di quando i computer avevano le tastiere, che c'è stato un tempo in cui internet non c'era, che pagavamo i nostri acquisti con rettangoli di carta, dischetti di metallo, tessere di plastica. E a te sembrerà tutto assurdo e primitivo, perchè potrai dare per scontate un sacco di cose che noi ancora chiamiamo "futuro". Quel giorno, ricordati che tutto questo è cominciato poco prima che tu nascessi, e che questo è un piccolo frammento di quel futuro di cui farai parte: il tuo. </font><br>
-      <p>
+      Quello che avete tra le mani è un paper wallet, uno dei modi più sicuri per accumulare Bitcoin per periodi medio-lunghi. E' un wallet per bitcoin a tutti gli effetti che ha valore al portatore, può essere usato per fare regali o come strumento didattico. Successivamente all'evento, <strong>uno dei paper wallet distribuiti riceverà in regalo un versamento simbolico</strong> per incentivare l'interesse e l'utilizzo di questa tecnologia. </font> <br>
+      <h4>Come si usa:</h4><font style="font-size:12px">
+      A fondo pagina trovate i dati di questo paper wallet: le chiavi pubblica e privata, la stringa di importazione, l'indirizzo a cui inviare Bitcoin. Si possono inviare bitcoin al suo indirizzo (QRCode di sinistra), mentre per spenderli bisogna importare la chiave privata in un wallet digitale (QRCode di destra). Usatelo per fare piccoli esperimenti e acquisire familiarità con Bitcoin mantenendo sempre le sue informazioni riservate.</font><br>
+      <h4>Blockchain Caffe:</h4><font style="font-size:12px">
+      Questo è un omaggio di Blockchain Caffe. Vi aspettiamo sui social network, e sul canale YouTube dove sono già presenti decine di video divulgativi su Bitcoin e la Blockchain. Potete usare l'indirizzo info@blockchaincaffe.it per chiarimenti, dubbi, domande, corsi, analisi di progetti, valutazioni di ICO, servizi di consulenza, supporto ed ogni altra necessità legata al mondo Blockchain e criptovalute.
+      </font><br>
+
       <h4>Wallet Data:</h4>      
       <font style="font-size:10px">
         <table border=0>
-          <tr><td>Private key:  </td><td>3973e022e93220f9212c18d0d0c543ae7c309e46640da93a4a0314de999f5112</td></tr>
-          <tr><td>Public key:   </td><td>035C6A3B83FB834519EECAE1681EE2118F55EFC28C2AA705251ACBC1BD4D241E09</td></tr>
-          <tr><td>KeyHash:      </td><td>155526cebaefaed1da3fedaa11aade823d9b62a4 (ripmed160(sha256(pub)))</td></tr>
-          <tr><td>WIF:          </td><td>cPWP7WfbF5f883qk5VPyAmQiqs5nEJaV8qxFUFvDFwxKLsSsyHjB</td></tr>
-          <tr><td>Address:      </td><td>mhTkVX3TyVsnJNu1xR6sY6rtysj68d1oSg  (P2PKH)</td></tr>
-          <tr><td>SegWit Addr:  </td><td>2N9Q1C7rUPqCMJxdaheg9P3GpAM5cmSSvRY</td></tr>
-          <tr><td>Bech32 Addr:  </td><td>tb1qz42jdn46a7hdrk3lak4pr2k7sg7ekc4y9zquxc</td></tr>
-          </table>
+        <tr>
+          <td rowspan="4" width=20>&nbsp;</td>
+          <td>Private key:</td>
+          <td>%%PRV%%</td>
+        </tr>
+        <tr>
+          <td>Public key:</td>
+          <td>%%PUB%%</td>
+        </tr>
+        <tr>
+          <td>WIF:</td>
+          <td>%%WIF%%</td>
+        </tr>
+        <tr>
+          <td>Address:</td>
+          <td>%%ADD%%</td>
+        </tr>
+      </table>
       </font>
-
       <br>
       <table class="tableWithBackground" align=center frame="box" border="0">
         <tr>
